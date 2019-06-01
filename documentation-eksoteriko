@@ -1,0 +1,13 @@
+1. Setup a mysql database
+
+2. Generate .env file manually inside root folder of app (election-mng), using the commands:
+- cp .env.example .env
+- php artisan key:generate
+
+3. Include your mysql configuration inside .env (host, username, password etc)
+
+4. Once you are ready, open terminal, navigate to root app folder (election-mng) and write the command "php artisan migrate". This should create all required tables on mysql database.
+
+5. Once you did previous, write the command "php artisan serve" and the app will be served on port 8000 of localhost
+
+6. This app require the εσωτερικό σύστημα app to be up and running.
